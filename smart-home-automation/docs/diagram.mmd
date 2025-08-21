@@ -1,0 +1,9 @@
+
+%% Mermaid diagram for architecture
+flowchart LR
+  Phone[Phone<br/>Bluetooth App] -- UART over RF --> HC05[HC-05]
+  HC05 <-- 9600 bps UART --> Arduino[Arduino Uno]
+  Arduino -->|D4| Relay1[Relay CH1 — Red Light]
+  Arduino -->|D5| Relay2[Relay CH2 — Socket]
+  Arduino -->|D6| Relay3[Relay CH3 — Fan]
+  Arduino -->|D7| Relay4[Relay CH4 — Pink Light]

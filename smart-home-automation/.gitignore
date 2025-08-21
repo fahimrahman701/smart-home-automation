@@ -1,0 +1,42 @@
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Node/JS (if any tools get added later)
+node_modules/
+
+# Python (if you run scripts)
+__pycache__/
+
+# Arduino / PlatformIO
+*.hex
+*.elf
+*.bin
+.pio/
+.build/
+
+# Flutter / Android
+build/
+.gradle/
+.cxx/
+local.properties
+.flutter-plugins
+.flutter-plugins-deps
+.packages
+.melos_tool/
+.pub-cache/
+.dart_tool/
+.mirrord/
+pubspec.lock
+
+# Logs
+*.log
+
+# Zips and exports
+*.zip
